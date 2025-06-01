@@ -191,14 +191,22 @@ body {
 }
 
 .clients {
-  background-color: red;
-  padding-top: 500px;
-  padding-bottom: 500px;
+  background: var(--Light-blue, #F7FAFF);
+}
+
+.clients-reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 30px;
 }
 
 .clients-list {
   display: flex;
   justify-content: center;
+  gap: 24px;
+  padding-bottom: 60px;
 }
 
 .clients-item {
@@ -206,8 +214,8 @@ body {
   height: 306px;
   border-radius: 8px;
   background: var(--White, #FFF);
-  padding-left: 102px;
-  padding-right: 133px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .clients-title {
@@ -220,6 +228,10 @@ body {
   font-weight: 700;
   line-height: 45px; /* 225% */
   text-transform: uppercase;
+  padding-top: 32px;
+  padding-bottom: 4px;
+  padding-left: 14px;
+  padding-right: 133px;
 }
 
 .clients-caption {
@@ -231,6 +243,7 @@ body {
   font-weight: 400;
   line-height: 24px; /* 150% */
   opacity: 0.8;
+  padding-left: 102px;
 }
 
 .clients-text {
@@ -242,9 +255,14 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 27px; /* 150% */
+  padding-bottom: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .clients-img {
   width: 56px;
   height: 56px;
+  padding-top: 36px;
+  padding-left: 32px;
 }/*# sourceMappingURL=main.css.map */
