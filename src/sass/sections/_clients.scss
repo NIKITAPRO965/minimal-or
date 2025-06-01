@@ -1,4 +1,8 @@
-
+.clients{
+    background-color: red;
+    padding-top: 500px;
+    padding-bottom: 500px;
+}
 
 .clients-list{
         display: flex;
@@ -47,4 +51,8 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 27px; /* 150% */
+    }
+    .clients-img{
+        width: 56px;
+height: 56px;
     }
