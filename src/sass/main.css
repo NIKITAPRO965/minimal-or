@@ -14,7 +14,7 @@ img {
   width: 100%;
 }
 
-h1, h2, h3, h4, p {
+h1, h2, h3, h4, h5, p {
   margin: 0;
 }
 
@@ -254,35 +254,47 @@ body {
 
 .clients {
   background: var(--Light-blue, #F7FAFF);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .clients-reviews {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 60px;
-  padding-bottom: 30px;
+  color: var(--Blue-font, #0A224A);
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px; /* 140.625% */
+  text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 .clients-list {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-bottom: 60px;
 }
 
 .clients-item {
-  width: 424px;
-  height: 306px;
   border-radius: 8px;
   background: var(--White, #FFF);
   display: flex;
   flex-wrap: wrap;
+  padding: 32px;
+}
+
+.clients-box {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  margin-bottom: 16px;
 }
 
 .clients-title {
-  width: 189px;
-  height: 37px;
   color: var(--Blue-font, #0A224A);
   font-family: Roboto;
   font-size: 20px;
@@ -290,10 +302,6 @@ body {
   font-weight: 700;
   line-height: 45px; /* 225% */
   text-transform: uppercase;
-  padding-top: 32px;
-  padding-bottom: 4px;
-  padding-left: 14px;
-  padding-right: 133px;
 }
 
 .clients-caption {
@@ -305,26 +313,20 @@ body {
   font-weight: 400;
   line-height: 24px; /* 150% */
   opacity: 0.8;
-  padding-left: 102px;
 }
 
 .clients-text {
   width: 360px;
-  height: 161px;
   color: var(--Blue-font, #0A224A);
   font-family: Roboto;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px; /* 150% */
-  padding-bottom: 32px;
-  padding-left: 32px;
-  padding-right: 32px;
 }
 
 .clients-img {
   width: 56px;
   height: 56px;
-  padding-top: 36px;
-  padding-left: 32px;
+  margin-right: 14px;
 }/*# sourceMappingURL=main.css.map */
