@@ -37,6 +37,8 @@ line-height: 1.50px;
 }
 
 &__button{
+  border: none;
+  background-color: transparent;
     display: block;
     margin-left: auto;
     @media screen and (min-width: 1344px){
