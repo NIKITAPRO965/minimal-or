@@ -197,12 +197,15 @@ body {
   padding-bottom: 132px;
   padding-left: 60px;
   padding-right: 60px;
-  width: 1320px;
-  height: 530px;
+}
+
+.hero .container {
   background: url(../img/hero/desktop/heroproduct1-desktop@1x.webp), url(../img/hero/desktop/heroproduct2-desktop@1x.webp), url(../img/hero/desktop/heroproduct3-desktop@1x.webp);
   background-repeat: no-repeat, no-repeat, no-repeat;
-  background-size: 324px 337px, 600px 530px, 324px 337px;
-  background-position: left, center, right;
+  background-size: 324px 333px, 648px 539px, 324px 337px;
+  background-position: left 12px bottom, center top, right 12px top;
+  display: flex;
+  justify-content: space-between;
 }
 
 .hero-title {
@@ -210,38 +213,32 @@ body {
   color: var(--Blue-font, #0A224A);
   font-family: "Playfair Display";
   font-size: 50px;
-  font-style: normal;
   font-weight: 400;
   line-height: 75px; /* 150% */
   text-transform: uppercase;
 }
 
+.hero-box {
+  margin-top: 396px;
+}
+
 .hero-text {
-  width: 312px;
+  width: 311px;
   color: var(--Blue-font, #0A224A);
-  font-family: Roboto;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 27px; /* 150% */
+  line-height: 1.5; /* 150% */
+  margin-bottom: 30px;
 }
 
 .hero-button {
-  display: flex;
   background: var(--Blue-font, #0A224A);
-  width: 224px;
-  height: 50px;
   padding: 17px 65px;
-  justify-content: center;
-  align-items: center;
   gap: 6px;
-  flex-shrink: 0;
   color: var(--White, #FFF);
-  font-family: Roboto;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 133.333% */
+  line-height: 1.33; /* 133.333% */
 }
 
 .products__title {
