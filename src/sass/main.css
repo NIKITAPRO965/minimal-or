@@ -91,6 +91,8 @@ body {
   line-height: 1.5px;
 }
 .header__button {
+  border: none;
+  background-color: transparent;
   display: block;
   margin-left: auto;
 }
