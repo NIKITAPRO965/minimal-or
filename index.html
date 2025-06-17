@@ -63,39 +63,46 @@
     </div>
     </div>
 </section>
-          <section class="aboutus">
+          <section class="about">
         <div class="container">
-          <div>
-            <div>
-              <p class="">About us</p>
-              <h2 class="aboutus-title">
-                Our сraftsmanship: сreating unique handmade furniture
+          <div class="about__bigbox">
+            <div class="about__box">
+              <p class="about__subtext">About us</p>
+              <h2 class="about__title">
+                Our craftsmanship: creating unique handmade furniture
               </h2>
-              <p>
+              <p class="about__text">
                 Discover the inspiration behind our modern and minimalist
                 designs, and see how we bring them to life through our skilled
                 craftsmanship.
               </p>
-              <ul>
-                <li>
-                  <h3>5+</h3>
-                  <p>Years of experience creating handcrafted furniture</p>
+              <ul class="about__list">
+                <li class="about__item">
+                  <h3 class="about__subtitle">5+</h3>
+                  <p class="about__desc">
+                    Years of experience creating handcrafted furniture
+                  </p>
                 </li>
-                <li>
-                  <h3>100%</h3>
-                  <p>
+                <li class="about__item">
+                  <h3 class="about__subtitle">100%</h3>
+                  <p class="about__desc">
                     Sustainably sourced materials used in all of our furniture
                   </p>
                 </li>
-                <li>
-                  <h3>500+</h3>
-                  <p>
+                <li class="about__item">
+                  <h3 class="about__subtitle">500+</h3>
+                  <p class="about__desc">
                     Unique furniture designs crafted by our skilled artisans
                   </p>
                 </li>
               </ul>
             </div>
-            <img src="" alt="" />
+          <picture>
+            <source srcset="../img/aboutus/desktop/aboutus-desktop@1x.webp 1x, ../img/aboutus/desktop/aboutus-desktop@2x.webp 2x" media="(min-width: 1344px)">
+            <source srcset="../img/aboutus/tablet/aboutus-tablet@1x.webp 1x, ../img/aboutus/tablet/aboutus-tablet@2x.webp 2x" media="(min-width: 728px)">
+            <source srcset="../img/aboutus/mobile/aboutus-mobile@1x.webp 1x, ../img/aboutus/mobile/aboutus-mobile@2x.webp 2x" media="(max-width: 727px)">
+          <img src="../img/aboutus/desktop/aboutus-desktop@1x.webp" alt="coach" class="about__img">
+          </picture>
           </div>
         </div>
       </section>
@@ -300,24 +307,29 @@
 </section>
 
     
-      <section>
+      <section class="newsletter">
         <div class="container">
-          <h2>Newsletter</h2>
-          <p>Every week we will send you new designs and information about sales.</p>
-          <form>
+          <div>
+          <h2 class="newsletter__title">Newsletter</h2>
+          <p class="newsletter__text">Every week we will send you new designs and information about sales.</p>
+          <form class="newsletter__form">
             <label class="newsletter__libe">
               <input type="text" class="newsletter__input" placeholder="Name" required />
             </label>
             <label class="newsletter__libe">
               <input type="email" class="newsletter__input" placeholder="E-mail" required />
             </label>
-            <label class="aboutus">
-              <input type="checkbox" required />
-              <span class="aboutus__checkbox">Agree to subscribe to the newsletter</span>
-              <button type="submit" class="modal__button">Send</button>
-            </label>
+              <input type="checkbox" required  class="newsletter__check"/>
+              <span class="newsletter__span">Agree to subscribe to the newsletter</span>
+              <button type="submit" class="newsletter__button">Send</button>
           </form>
-          <img src="" alt="">
+          </div>
+          <picture>
+            <source srcset="../img/newsletter/desktop/newsletter-desktop@1x.webp 1x,../img/newsletter/desktop/newsletter-desktop@1x.webp 2x" media="(min-width: 1344px)">
+            <source srcset="../img/newsletter/tablet/newsletter-tablet@1x.webp 1x,../img/newsletter/tablet/newsletter-tablet@1x.webp 2x" media="(min-width: 728px)">
+            <source srcset="../img/newsletter/mobile/newsletter-mobile@1x.webp 1x,../img/newsletter/mobile/newsletter-mobile@1x.webp 2x" media="(max-width: 727px)">
+          <img src="../img/newsletter/desktop/newsletter-desktop@1x.webp" alt="sofa" class="newsletter__img">
+          </picture>
         </div>
       </section>
     
