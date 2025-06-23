@@ -1,0 +1,152 @@
+.footer .container{
+position: relative;
+}
+.footer{
+    background-color: $accent-color;
+    padding-top: 36px;
+    padding-bottom: 16px;
+     @media screen and (min-width: 728px){
+            padding-top: 48px;
+            padding-bottom: 36px;
+    }
+
+    &__icon{
+        width: 100px;
+        height: 16px;
+        text-align: start;
+        left: 0px;
+        margin-left: 0px;
+        margin-top: 8px;
+     @media screen and (min-width: 1344px){
+        margin-top: 10px;
+    }
+    }
+
+    &__programes{
+        display: flex;
+    position: absolute;
+        right: 16px;
+        top: 0px;
+        gap: 16px;
+        @media screen and (min-width: 728px){
+           right: 32px;
+    }
+            @media screen and (min-width: 1344px){
+           right: 60px;
+           gap: 30px;
+    }
+    }
+    &__sections{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-top: 36px;
+                @media screen and (min-width: 728px){
+          gap: 16px;
+          position: absolute;
+          left: 400px;
+          top: 0;
+          margin-top: 0px;
+          padding: 8px;
+    }
+            @media screen and (min-width: 1344px){
+           gap: 30px;
+           flex-direction: row;
+           left: 396px;
+    }
+    }
+    &__informations{
+        display: flex;
+        flex-direction: column;
+        margin-top: 36px;
+        gap: 8px;
+        
+        @media screen and (min-width: 728px){
+          margin-top: 32px;
+            gap: 16px;
+
+    }
+    @media screen and (min-width: 1344px){
+        margin-top: 39px;
+    }
+    }
+    &__numbers{
+        position: relative;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-top: 35px;
+     @media screen and (min-width: 728px){
+        margin-top: 64px;
+        gap: 16px;
+    }
+    @media screen and (min-width: 1344px){
+        top: 0px;
+          left: 395px;
+    }
+    }
+    &__items:last-child{
+        display: none;
+        @media screen and (min-width: 728px){
+            display: block;
+    }
+    }
+        &__items:last-child{
+        @media screen and (min-width: 1344px){
+            position: absolute;
+            left: 210px;
+    }
+    }
+    
+    &__link{
+        color: $white;
+font-size: 16px;
+font-weight: 400;
+line-height: 1,5;   
+        @media screen and (min-width: 728px){
+font-size: 18px;
+    }
+    }
+    &__text{
+        color: $dark-grey;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px; 
+        letter-spacing: 1.188px;
+        margin-top: 130px;
+        @media screen and (min-width: 728px){
+font-size: 16px;
+line-height: 20px;
+            margin-top: 200px;
+    }
+        @media screen and (min-width: 1344px){
+            margin-top: 35px;
+    }
+    }
+    &__programephoto{
+        fill: $white ;
+        width: 28px;
+        height: 28px;
+        @media screen and (min-width: 728px){
+        width: 40px;
+        height: 40px;
+    }
+    }
+    
+    &__span{
+        opacity: 0.6;
+        color: $white ;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 1.188px;
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+        text-decoration-skip-ink: none;
+        text-decoration-thickness: auto;
+        text-underline-offset: auto;
+        text-underline-position: from-font;
+    }
+}
