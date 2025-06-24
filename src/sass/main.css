@@ -242,8 +242,6 @@ body {
 }
 
 .about {
-  display: inline-flex;
-  padding: 64px 16px;
   align-items: flex-start;
   gap: 8px;
 }
@@ -356,6 +354,7 @@ body {
 .about__list {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 @media screen and (min-width: 728px) {
   .about__list {

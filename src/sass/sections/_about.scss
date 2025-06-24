@@ -1,6 +1,4 @@
 .about{
-        display: inline-flex;
-        padding: 64px 16px;
         align-items: flex-start;
         gap: 8px;
     @media screen and (min-width: 728px){
@@ -99,6 +97,7 @@
     &__list{
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
     @media screen and (min-width: 728px){
         justify-content: space-between;
         align-items: flex-start;
