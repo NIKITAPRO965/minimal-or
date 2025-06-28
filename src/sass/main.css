@@ -634,6 +634,9 @@ body {
   line-height: 1.5;
 }
 
+.bestsellers {
+  position: relative;
+}
 .bestsellers__title {
   color: #0A224A;
   font-size: 28px;
@@ -644,12 +647,14 @@ body {
   justify-content: center;
 }
 .bestsellers__list {
+  position: relative;
   display: block;
   flex-wrap: wrap;
 }
 @media screen and (min-width: 728px) {
   .bestsellers__list {
     display: flex;
+    gap: 32px;
   }
 }
 .bestsellers__box {
@@ -661,8 +666,8 @@ body {
 }
 @media screen and (min-width: 1344px) {
   .bestsellers__item:nth-child(2) {
-    width: 258px;
-    height: 266px;
+    max-width: 258px;
+    max-height: 266px;
   }
 }
 @media screen and (min-width: 1344px) {
@@ -672,6 +677,7 @@ body {
   }
 }
 .bestsellers__items {
+  position: relative;
   display: none;
 }
 @media screen and (min-width: 728px) {
@@ -683,6 +689,16 @@ body {
   .bestsellers__items {
     width: 258px;
     height: 266px;
+  }
+}
+.bestsellers__items:first-child {
+  display: block;
+  position: absolute;
+}
+@media screen and (min-width: 1344px) {
+  .bestsellers__items:first-child {
+    margin-left: 560px;
+    margin-top: 371px;
   }
 }
 .bestsellers__images {
@@ -718,6 +734,12 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+}
+@media screen and (min-width: 728px) {
+  .bestsellers__text {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
 }
 .bestsellers__cost {
   color: #0A224A;

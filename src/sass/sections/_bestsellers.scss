@@ -1,4 +1,5 @@
 .bestsellers{
+    position: relative;
     &__title{
         color: $accent-color;
 font-size: 28px;
@@ -11,10 +12,12 @@ justify-content: center;
 
 
     &__list{
+        position: relative;
         display: block;
         flex-wrap: wrap;
          @media screen and (min-width: 728px){
         display: flex;
+        gap: 32px;
     }
     }
     &__box{
@@ -27,8 +30,8 @@ justify-content: center;
     &__item:nth-child(2){
 
     @media screen and (min-width: 1344px){
-        width: 258px;
-        height: 266px;
+        max-width: 258px;
+        max-height: 266px;
 
     }
     }
@@ -41,18 +44,29 @@ justify-content: center;
     }
     }
     &__items{
+        position: relative;
         display: none;
         @media screen and (min-width: 728px){
         display: block;
     }
-    
     @media screen and (min-width: 1344px){
         width: 258px;
         height: 266px;
 
     }
     }
+    &__items:first-child{
+        display: block;
+        position: absolute;
+     @media screen and (min-width: 1344px){
+        margin-left: 560px;
+        margin-top: 371px;
+    }
 
+    }
+    // &__items:last-child{
+
+    // }
 
     &__images{
 width: 343px;
@@ -89,6 +103,10 @@ height: 489px;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
+    @media screen and (min-width: 728px){
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
     }
 
 
