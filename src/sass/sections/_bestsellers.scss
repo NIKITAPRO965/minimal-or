@@ -204,7 +204,19 @@ height: 489px;
     }
   }
 
-  &__img{
+
+
+
+  &__text{
+     color: $accent-color;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    @media screen and (min-width: 728px) {
+      font-size: 18px;
+    }
+      &__img{
     width: 343px;
 height: 193px;
 margin-bottom: 14px;
@@ -216,16 +228,6 @@ margin-bottom: 15px;
 width: 100%;
     }
   }
-
-  &__text{
-     color: $accent-color;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    margin-bottom: 10px;
-    @media screen and (min-width: 728px) {
-      font-size: 18px;
-    }
   }
   &__cost{
     color: $accent-color;
