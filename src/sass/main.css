@@ -618,7 +618,8 @@ body {
 }
 
 .bestsellers {
-  padding: 64px 0px;
+  padding-bottom: 64px;
+  padding-top: 0px;
 }
 @media screen and (min-width: 728px) {
   .bestsellers {
@@ -671,6 +672,7 @@ body {
 .bestsellers__list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
 }
 @media screen and (min-width: 728px) {
@@ -715,7 +717,6 @@ body {
 @media screen and (min-width: 1344px) {
   .bestsellers__images {
     height: 489px;
-    margin-top: 30px;
   }
 }
 .bestsellers__capmtion {
