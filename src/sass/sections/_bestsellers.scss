@@ -157,19 +157,7 @@
 
     }
   }
-  &__img{
-    width: 343px;
-height: 193px;
-margin-bottom: 14px;
-    @media screen and (min-width: 728px) {
-width: 336px;
-margin-bottom: 15px;
-    }
-        @media screen and (min-width: 1344px) {
-width: 100%;
-    }
-  }
-  &__images {
+   &__images {
     width: 343px;
     height: 193px;
     margin-bottom: 14px;
@@ -183,6 +171,19 @@ width: 100%;
 height: 489px;
     }
   }
+  &__img{
+    width: 343px;
+height: 193px;
+margin-bottom: 14px;
+    @media screen and (min-width: 728px) {
+width: 336px;
+margin-bottom: 15px;
+    }
+        @media screen and (min-width: 1344px) {
+width: 100%;
+    }
+  }
+ 
 
   &__capmtion {
     color: $accent-color;
