@@ -25,6 +25,9 @@
     &__box{
         background-color: $light-blue;
         padding: 16px 64px;
+    @media screen and (max-width: 320px){
+        padding: 0px;    
+    }
     @media screen and (min-width: 728px){
         margin-bottom: 30px;
         padding-left: 64px;
@@ -98,6 +101,9 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+    @media screen and (max-width: 320px){
+        padding: 0px 50px;    
+    }
     @media screen and (min-width: 728px){
         justify-content: space-between;
         align-items: flex-start;
