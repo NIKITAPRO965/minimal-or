@@ -737,22 +737,6 @@ body {
     display: block;
   }
 }
-.bestsellers__img {
-  width: 343px;
-  height: 193px;
-  margin-bottom: 14px;
-}
-@media screen and (min-width: 728px) {
-  .bestsellers__img {
-    width: 336px;
-    margin-bottom: 15px;
-  }
-}
-@media screen and (min-width: 1344px) {
-  .bestsellers__img {
-    width: 100%;
-  }
-}
 .bestsellers__text {
   color: #0A224A;
   font-size: 16px;
@@ -763,6 +747,22 @@ body {
 @media screen and (min-width: 728px) {
   .bestsellers__text {
     font-size: 18px;
+  }
+}
+.bestsellers__text__img {
+  width: 343px;
+  height: 193px;
+  margin-bottom: 14px;
+}
+@media screen and (min-width: 728px) {
+  .bestsellers__text__img {
+    width: 336px;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (min-width: 1344px) {
+  .bestsellers__text__img {
+    width: 100%;
   }
 }
 .bestsellers__cost {
