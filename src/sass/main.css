@@ -736,6 +736,7 @@ body {
 }
 @media screen and (min-width: 1344px) {
   .bestsellers__item {
+    width: 160px;
     flex-basis: calc((100% - 20px) / 2);
   }
 }
@@ -760,7 +761,7 @@ body {
 }
 @media screen and (min-width: 1344px) {
   .bestsellers__img {
-    width: 100%;
+    width: 258px;
   }
 }
 .bestsellers__text {
