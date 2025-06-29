@@ -619,7 +619,9 @@ body {
 
 .bestsellers {
   padding-bottom: 64px;
+
   padding-top: 0px;
+
 }
 @media screen and (min-width: 728px) {
   .bestsellers {
